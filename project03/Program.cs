@@ -40,11 +40,22 @@
 
             #region Question04
             //4. Given string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };, use a for loop to print each book with its position number, like 1. Clean Code.
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            for(int i=0;i<books.Length;i++)
-            {
-                Console.WriteLine($"{i + 1}.{books[i]}");
-            }
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //for(int i=0;i<books.Length;i++)
+            //{
+            //    Console.WriteLine($"{i + 1}.{books[i]}");
+            //}
+            #endregion
+
+            #region Question05
+            //5. Using the same books array, use a while loop to print every book title.
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //int counter = 0;
+            //while (counter<books.Length)
+            //{
+            //    Console.WriteLine($"{counter+1}.{books[counter]}");
+            //    counter++;
+            //}
             #endregion
         }
 
