@@ -2,6 +2,14 @@
 {
     internal class Program
     {
+        //public static void PrintFirstBook(string[]arr)
+        //{
+        //    if (arr.Length == 0)
+        //        return;
+
+        //    Console.WriteLine(arr[0]);
+
+        //}
         static void Main(string[] args)
         {
 
@@ -56,6 +64,56 @@
             //    Console.WriteLine($"{counter+1}.{books[counter]}");
             //    counter++;
             //}
+            #endregion
+
+            #region Question06
+            //6. Write a do-while loop that prints "Checking book..." exactly 3 times.
+            //int counter = 0;
+            //do 
+            //{
+            //    Console.WriteLine("Checking book...");
+            //    counter++;
+            //} while (counter<3);
+            #endregion
+
+            #region Question07
+            //7. Using the same books array, use a foreach loop to print every book title.
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //foreach (string book in books)
+            //{
+            //    Console.WriteLine(book);
+            //}
+            #endregion
+
+            #region Question08
+            //8. Using the same books array, loop through it and print each title, but stop completely (break) once you reach "Refactoring".
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //for(int i=0;i<books.Length;i++)
+            //{
+            //    if (books[i] == "Refactoring")
+            //        break;
+            //    Console.WriteLine($"{i + 1}.{books[i]}");
+
+            //}
+            #endregion
+
+            #region Question09
+            //9. Using the same books array, print every title except "The Pragmatic Programmer" (skip it with continue, don't stop the loop).
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //for (int i = 0; i < books.Length; i++)
+            //{
+            //    if (books[i] == "The Pragmatic Programmer")
+            //        continue;
+            //    Console.WriteLine($"{i + 1}.{books[i]}");
+
+            //}
+            #endregion
+
+            #region Question10
+            //10. Write a method PrintFirstBook() that prints the first book in the books array. If the array is empty, use return to exit the method early instead of printing anything. 
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //PrintFirstBook(books);
+
             #endregion
         }
 
